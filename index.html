@@ -1,0 +1,501 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="css/jquery.slideBox.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.slideBox.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+              $('.sub-menu').hide();
+              $(' .nav li').hover(function() {
+                  // $(this).find('ul').slideDown();
+                  //$(this).find('ul').show();
+                  $(this).find('ul').fadeToggle();
+              }, function() {
+                  // $(this).find('ul').slideToggle();
+                  //$(this).find('ul').hide();
+                  $(this).find('ul').fadeToggle();
+              });
+                $('.nav li').click(function(event) {
+                    $(this).find('ul').fadeToggle();
+                });
+            });
+	
+</script>
+</head>
+	<body>
+		
+			<!-- 头部开始 -->
+			<div class="header">
+				<div class="header_top">
+					<div class="head">
+						<div class="transparent">
+							<a href="#"><img src="images/logo.png"></a>
+							<a href="#">创业学院</a>
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="clear"></div>
+				<!-- 导航栏开始 -->
+				<div class="header_center">
+					<div class="nav">
+						<ul>
+							<li>
+								<a href="">首页</a>
+							</li>
+							<li>
+								<a href="">学院活动</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="">活动1</a>
+									</li>
+									<li>
+										<a href="">活动2</a>
+									</li>
+									<li>
+										<a href="">活动3</a>
+									</li>
+
+								</ul>
+							</li>
+							<li>
+								<a href="">新闻动态</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="">动态1</a>
+									</li>
+									<li>
+										<a href="">动态2</a>
+									</li>
+									<li>
+										<a href="">动态3</a>
+									</li>
+
+								</ul>
+							</li>
+							<li>
+								<a href="">创业教育</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="">活动1</a>
+									</li>
+									<li>
+										<a href="">活动2</a>
+									</li>
+									<li>
+										<a href="">活动3</a>
+									</li>
+
+								</ul>
+							</li>
+							<li>
+								<a href="">创业辅导</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="">辅导1</a>
+									</li>
+									<li>
+										<a href="">辅导2</a>
+									</li>
+									<li>
+										<a href="">辅导3</a>
+									</li>
+
+								</ul>
+							</li>
+							<li>
+								<a href="">风采基地</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="">风采1</a>
+									</li>
+									<li>
+										<a href="">风采2</a>
+									</li>
+									<li>
+										<a href="">风采3</a>
+									</li>
+
+								</ul>
+							</li>
+							<li>
+								<a href="">创业基地</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="">基地1</a>
+									</li>
+									<li>
+										<a href="">基地2</a>
+									</li>
+									<li>
+										<a href="">基地3</a>
+									</li>
+
+								</ul>
+							</li>
+							<li>
+								<a href="">品牌活动</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="">活动1</a>
+									</li>
+									<li>
+										<a href="">活动2</a>
+									</li>
+									<li>
+										<a href="">活动3</a>
+									</li>
+
+								</ul>
+							</li>
+							<li>
+								<a href="">预约报名</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="">报名1</a>
+									</li>
+									<li>
+										<a href="">报名2</a>
+									</li>
+									<li>
+										<a href="">报名3</a>
+									</li>
+
+								</ul>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+				<!-- 导航栏结束 -->
+				<div class="header_bottom">
+					<div class="center_picture">
+						<img src="images/center.png">
+					</div>
+					
+				</div>
+
+			</div>
+			<div class="clear"></div>
+			<!-- 头部结束 -->
+
+			<!-- 首页主体开始 -->
+			<div class="container_left">
+				<div class="container_right">
+					<div class="content">
+						<div class="clear"></div>	
+						<div class="content_left">
+								<!-- 幻灯片开始 -->
+								<div id='demo' class='slideBox'>
+									<ul class="items">
+										<li>
+			                                <a href="http://web.fosu.edu.cn" title="标题1"><img src="images/2.png" alt="标题1"  ></a>
+			                            </li>
+			                            <li>
+			                                 <a href="http://web.fosu.edu.cn" title="标题2"><img src="images/2.png" alt="标题2"  ></a>
+			                            </li>
+			                             <li>
+			                                <a href="http://web.fosu.edu.cn" title="标题3"><img src="images/2.png" alt="标题3"  ></a>
+			                            </li>
+			                            <li>
+			                                 <a href="http://web.fosu.edu.cn"  title="标题4"><img src="images/2.png" alt="标题4"  ></a>
+			                            </li>
+			                            <li>
+			                                 <a href="http://web.fosu.edu.cn"  title="标题5"><img src="images/2.png" alt="标题5" ></a>
+			                            </li>
+		                        	</ul>
+
+								</div>
+					<script type="text/javascript">
+						jQuery(function($){
+							$('#demo').slideBox({
+								duration : 0.5,//滚动持续时间，单位：秒
+								easing : 'linear',//swing,linear//滚动特效
+								delay : 5,//滚动延迟时间，单位：秒
+								clickBarRadius : 10,
+								direction : 'left',//left,top#方向
+								startIndex : 1//初始焦点顺序
+							});
+						});
+					</script>	
+								<!-- 幻灯片结束 -->
+								<div class="news">
+									<div class="news_top">
+										<div class="title">
+											<a href="">学院新闻<span>/News</span></a>
+										</div>
+										<a href=""><img src="images/4.png"></a>
+									</div>
+									<div class="news_nav">
+										<ul>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="news">
+									<div class="news_top">
+										<div class="title">
+											<a href="">创业精神<span>/Sprit</span></a>
+										</div>
+										<a href=""><img src="images/4.png"></a>
+									</div>
+									<div class="news_nav">
+										<ul>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="news">
+									<div class="news_top">
+										<div class="title">
+											<a href="">创业项目<span>/project</span></a>
+										</div>
+										<a href=""><img src="images/4.png"></a>
+									</div>
+									<div class="news_nav">
+										<ul>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="news">
+									<div class="news_top">
+										<div class="title">
+											<a href="">他山之石<span>/Motto</span></a>
+										</div>
+										<a href=""><img src="images/4.png"></a>
+									</div>
+									<div class="news_nav">
+										<ul>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+											<li>
+												<img src="images/3.png"/> <a href="">创业路—— 为兴趣理工男转投服饰</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="show">
+								    <div class="showtop">
+								    	<div class="show_title">
+								    		<a href="">风采展示<span>/Show</span></a>
+								    		<a href=""><img src="images/9.png"></a>
+								    	</div>
+								    	
+								    	
+								    </div>
+									<div class="showcontent"> 
+											<ul>
+												<li>
+													<a href="">
+														<img src="images/5.png">
+														<p>佛山科学技术学院创业学院</p>
+													</a>
+												</li>
+												<li>
+													<a href="">
+														<img src="images/5.png">
+														<p>佛山科学技术学院创业学院</p>
+													</a>
+												</li>
+												<li>
+													<a href="">
+														<img src="images/5.png">
+														<p>佛山科学技术学院创业学院</p>
+													</a>
+												</li>
+												<li>
+													<a href="">
+														<img src="images/5.png">
+														<p>佛山科学技术学院创业学院</p>
+													</a>
+												</li>
+
+												
+											</ul>	
+								    </div>
+								</div>
+								<div class="clear"></div>
+						</div>
+							
+						<div class="content_right">
+								<div class="slclassebar_top">
+									<div class="slclassebar_top_title">
+										<a href="">通知公告<span>/Notice</span></a>
+									</div>
+									<div class="slclassebar_top_list">
+										<ul>
+											<li>
+												<a href="#">
+												<p>◇&nbsp创业学院....</p><span>2015-11-15</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+												<p>◇&nbsp创业学院....</p><span>2015-11-15</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+												<p>◇&nbsp创业学院....</p><span>2015-11-15</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+												<p>◇&nbsp创业学院....</p><span>2015-11-15</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+												<p>◇&nbsp创业学院....</p><span>2015-11-15</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+												<p>◇&nbsp创业学院....</p><span>2015-11-15</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+												<p>◇&nbsp创业学院....</p><span>2015-11-15</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="slclassebar_bottom">
+									<div class="sl_four">
+										<div class="sl_title">
+											<a href="">学院简介<span>/Introduction</span></a>
+										</div>
+										<div class="sl_text">
+											<p>&nbsp&nbsp&nbsp&nbsp佛山科学技术学院创业学院（原名为）是从中国创业会分离出来，1979年5月成立，1993年10月经中国创业协会。其宗旨是，开展国内外学术交流，普及科学技术知识，促进科技成果的应用，以及进行民间国际科技合作……</p>
+										</div>
+									</div>
+
+									<div class="sl_four">
+										<div class="sl_title">
+											<a href="">先锋人物<span>/Expert</span></a>
+										</div>
+										<div class="sl_list">
+											<ul>
+												<li><a href=""><img src="images/sl_list.png"></a></li>
+												<li><a href=""><img src="images/sl_list.png"></a></li>
+												<li><a href=""><img src="images/sl_list.png"></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="sl_four">
+										<div class="sl_title">
+											<a href="">友情链接<span>/Mylink</span></a>
+										</div>
+										<div class="sl_link">
+											<div class="link_six">
+												<a href="#">创业学院1</a>
+											</div>
+											<div class="link_six">
+												<a href="#">创业学院2</a>
+											</div>
+											<div class="link_six">
+												<a href="#">创业学院3</a>
+											</div>
+											<div class="link_six">
+												<a href="#">创业学院4</a>
+											</div>
+											<div class="link_six">
+												<a href="#">创业学院5</a>
+											</div>
+											<div class="link_six">
+												<a href="#">创业学院6</a>
+											</div>
+										
+										</div>
+									</div>
+
+									<div class="sl_four">
+										<div class="sl_title">
+											<a href="">联系我们<span>/Contact Us</span></a>
+										</div>
+										<div class="sl_contact">
+											<p>电话：86-21-54744401，54742324</p>
+											<p>网址：chuangye.sjtu.edu.cn</p>
+											<p>邮箱：chuangye@sjtu.edu.cn</p>
+											<p>地址：佛山科学技术学院</p>
+										</div>
+									</div>
+									
+
+								</div>
+							</div>
+						</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<!-- 首页主体结束 -->
+			
+			<!-- 尾部开始 -->
+			<div class="footer">
+				<div class="footer_center">
+					<img src="images/footer_center.png">
+				</div>
+			</div>
+			<!-- 尾部结束 -->
+	</body>
+</html>
